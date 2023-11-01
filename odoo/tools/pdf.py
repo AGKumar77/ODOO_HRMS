@@ -85,11 +85,11 @@ def rotate_pdf(pdf):
 
 
 def add_banner(pdf_stream, text=None, logo=False, thickness=2 * cm):
-    """ Add a banner on a PDF in the upper right corner, with Eagle ERP's logo (optionally).
+    """ Add a banner on a PDF in the upper right corner, with Odoo's logo (optionally).
 
     :param pdf_stream (BytesIO):    The PDF stream where the banner will be applied.
     :param text (str):              The text to be displayed.
-    :param logo (bool):             Whether to display Eagle ERP's logo in the banner.
+    :param logo (bool):             Whether to display Odoo's logo in the banner.
     :param thickness (float):       The thickness of the banner in pixels.
     :return (BytesIO):              The modified PDF stream.
     """

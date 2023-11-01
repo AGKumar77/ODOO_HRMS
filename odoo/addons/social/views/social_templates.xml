@@ -11,7 +11,7 @@
                     <h4 class="alert-heading"><b>An error occurred while trying to link your account</b></h4>
                     <p class="display-5" t-esc="error_message"></p>
                     <hr/>
-                    <a href="/web#action=social.action_social_stream_post">Go back to Eagle ERP</a>
+                    <a href="/web#action=social.action_social_stream_post">Go back to Odoo</a>
                 </div>
             </div>
         </t>

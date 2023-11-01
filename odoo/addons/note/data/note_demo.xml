@@ -71,8 +71,8 @@
     <record id="note_9" model="note.note">
       <field name="memo"><![CDATA[<p><b>Read those books</b></p>
       <p><br/></p>
-      <p>* Eagle ERP: a modern approach to integrated business management</p>
-      <p>* Eagle ERP for Retail and Industrial Management</p>]]>
+      <p>* Odoo: a modern approach to integrated business management</p>
+      <p>* Odoo for Retail and Industrial Management</p>]]>
       </field>
       <field name="user_id" ref="base.user_demo"/>
     </record>

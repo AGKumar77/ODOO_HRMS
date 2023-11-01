@@ -14,7 +14,7 @@ _logger = logging.getLogger(__name__)
 
 
 class odoo_resolver(etree.Resolver):
-    """Eagle ERP specific file resolver that can be added to the XML Parser.
+    """Odoo specific file resolver that can be added to the XML Parser.
 
     It will search filenames in the ir.attachments
     """

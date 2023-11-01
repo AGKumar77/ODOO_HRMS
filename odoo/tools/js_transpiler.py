@@ -1,6 +1,6 @@
 """
 This code is what let us use ES6-style modules in odoo.
-Classic Eagle ERP modules are composed of a top-level :samp:`odoo.define({name},{body_function})` call.
+Classic Odoo modules are composed of a top-level :samp:`odoo.define({name},{body_function})` call.
 This processor will take files starting with an `@odoo-module` annotation (in a comment) and convert them to classic modules.
 If any file has the ``/** odoo-module */`` on top of it, it will get processed by this class.
 It performs several operations to get from ES6 syntax to the usual odoo one with minimal changes.

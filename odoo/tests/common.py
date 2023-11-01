@@ -101,7 +101,7 @@ def standalone(*tags):
     """ Decorator for standalone test functions.  This is somewhat dedicated to
     tests that install, upgrade or uninstall some modules, which is currently
     forbidden in regular test cases.  The function is registered under the given
-    ``tags`` and the corresponding Eagle ERP module name.
+    ``tags`` and the corresponding Odoo module name.
     """
     def register(func):
         # register func by odoo module name

@@ -16,9 +16,9 @@ version_info = (16, 0, 0, FINAL, 0, '')
 version = '.'.join(str(s) for s in version_info[:2]) + RELEASE_LEVELS_DISPLAY[version_info[3]] + str(version_info[4] or '') + version_info[5]
 series = serie = major_version = '.'.join(str(s) for s in version_info[:2])
 
-product_name = 'Eagle ERP'
-description = 'Eagle ERP Server'
-long_desc = '''Eagle ERP is a complete ERP and CRM. The main features are accounting (analytic
+product_name = 'Odoo'
+description = 'Odoo Server'
+long_desc = '''Odoo is a complete ERP and CRM. The main features are accounting (analytic
 and financial), stock management, sales and purchases management, tasks
 automation, marketing campaigns, help desk, POS, etc. Technical features include
 a distributed server, an object database, a dynamic GUI,
